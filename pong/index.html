@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Pong Game</h1>
+        <p>Use o mouse ou toque na tela para mover a raquete e impedir que a bola ultrapasse sua raquete. O jogo termina quando um jogador perde 5 pontos.</p>
+        <button id="startButton">Iniciar Jogo</button>
+    </div>
+    <div id="gameArea" class="hidden">
+        <div id="scoreBoard">
+            <span id="playerScore">0</span> - <span id="computerScore">0</span>
+        </div>
+        <canvas id="pongCanvas"></canvas>
+    </div>
+    <div id="message" class="hidden">
+        <p>Você perdeu!</p>
+    </div>    
+    <audio id="backgroundMusic" loop>
+        <source src="sound/background.wav" type="audio/wav">
+    </audio>
+    <audio id="winSound">
+        <source src="sound/win.wav" type="audio/wav">
+    </audio>
+    <audio id="loseSound">
+        <source src="sound/lose.wav" type="audio/wav">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
