@@ -93,6 +93,11 @@ section#contato a[href^="https://www.linkedin.com"]:hover {
     transition: color 0.3s ease;
 }
 
+section#contato a[href^="https://github.com"]:hover {
+    color: #6e5494;
+    transition: color 0.3s ease;
+}
+
 
 section#sobre {
     display: flex;
@@ -127,24 +132,24 @@ section#sobre h3 {
 }
 
 
-.source-link {
+.publico {
     color: #006000;
     text-decoration: none;
 }
 
-.source-link:hover {
-    color: #555;
+.publico:hover {
+    color: #6e5494;
     text-decoration: underline;
 }
 
 
 
-.source-link, .other-page-link {
+.other-page-link {
     color: #006000;
     text-decoration: none;
 }
 
-.source-link:hover, .other-page-link:hover {
-    color: #333; /* Cor do GitHub */
+.other-page-link:hover {
+    color: #002000; /* Cor do GitHub */
     text-decoration: underline;
 }
