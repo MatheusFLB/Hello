@@ -150,6 +150,6 @@ section#sobre h3 {
 }
 
 .other-page-link:hover {
-    color: #002000; /* Cor do GitHub */
+    color: #002000;
     text-decoration: underline;
 }
